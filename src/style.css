@@ -1,0 +1,434 @@
+html{
+    background-color: black;
+}
+
+body{
+    cursor: default;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.settingsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quit{
+    transition: all 0.2s ease;
+    background: #504c4c;
+    background-image: url("assets/UI/cross.png");
+    background-size: cover;
+    border: #ffffff solid 2px;
+    box-shadow: #ffffff 0px 0px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 21.9px;
+    height: 50px;
+    width: 50px;
+    line-height: 16px;
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    outline: 0; 
+    z-index: +1;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+#quit:hover,
+#quit:active{
+    background-position: 0 0;
+    box-shadow: #747464 0px 0px 30px;
+}
+#quit:active{
+    background-color: #ffffff;
+    box-shadow: #ffffff 0px 0px 1px inset;
+    box-shadow: #ffffff 0px 2px 5px;
+    border-color: #ffffff;
+    transform: translateY(5px);
+}
+
+.escapeBtns{
+    transition: all 0.3s ease;
+    background: #504c4c;
+    background-size: cover;
+    border: #ffffff solid 2px;
+    box-shadow: #ffffff 0px 0px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #ffffff;
+    text-shadow: 0 0 10px;
+    font-family: font2;
+    font-size: 80px;
+    padding: 20px;
+    height: 100px;
+    line-height: 16px;
+    position: absolute;
+    outline: 0; 
+    z-index: +1;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+.escapeBtns:hover,
+.escapeBtns:active{
+    text-shadow: 0 0 15px;
+    background-position: 0 0;
+    box-shadow: #747464 0px 0px 30px;
+}
+.escapeBtns:active{
+    background-color: #504c4c;
+    box-shadow: #ffffff 0px 0px 30px inset;
+    box-shadow: #ffffff 0px 0px 10px;
+    border-color: #ffffff;
+    transform: translateY(10px);
+}
+#menuBtn{
+    position: absolute;
+    top: 38vh;
+}
+#settingsBtn{
+    position: absolute;
+    bottom: 38vh;
+}
+
+#game{
+    transition: all 3s ease;
+    opacity: 0;
+    /* width: 700px;
+    height: 700px; */
+    /* border-collapse: collapse; */
+    width: 90vh;
+    height: 90vh;
+    border: white solid 5px;
+    border-radius: 25px;
+    cursor: not-allowed;
+}
+
+#game td{
+    background-size: cover;
+    border: transparent;
+    width: 1%;
+    height: 1%;
+}
+
+h1{
+    transition: all 0.3s ease;
+    position: absolute;
+    letter-spacing: 2px;
+    font-family: font7;
+    font-size: 10vh;
+    text-align: center;
+    top: 0px;
+    color: rgb(0, 0, 0);
+    text-shadow: white 4px 4px;
+    line-height: 40vh;
+    height: 40vh;
+    width: 100vw;
+    -webkit-text-stroke: #ffffff 1px;
+    margin: 0;
+}
+h1:hover{
+    text-shadow: 0 0 10px white;
+}
+
+h2{
+    transition: all 0.3s ease;
+    -webkit-text-stroke: #ffffff 0.01px;
+    color: #000;    
+    text-align: center;
+    font-family: font7;
+    font-size: 3vh;
+    border-bottom: 2px solid white;
+}
+
+#labelLvl{
+    transition: all 0.3s ease;
+    font-family: font2;
+    color: white;
+}
+#labelLvl:hover{
+    text-shadow: 0 0 10px;
+}   
+.LvlBtn{
+    transition: all 0.3s ease;
+    width: 2px;
+    height: 11px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: white 2px 1px;
+    border: rgb(255, 255, 255) solid 1px;
+    cursor: pointer;
+}
+.LvlBtn:hover{
+    width: 2px;
+    height: 11px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: white 0 0 3px;
+    border: rgb(255, 255, 255) solid 1px;
+}
+.LvlBtn:active{
+    width: 2px;
+    height: 11px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 0 0 3px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+li{
+    transition: all 0.3s ease;
+    margin: 5px;
+    color: white;
+}
+ul {
+    transition: all 0.3s ease;
+    margin: 50px;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+.UI {
+    transition: all 3s ease;
+    opacity: 0;
+    font-family: font2;
+    position: absolute;
+    top: 0.5vh;
+    left: 24.7vw;
+    height: 3.5vh;
+    width: 53.25vw;
+    display: flex;
+    justify-content: center;
+}
+
+#totalCollected{
+    position: absolute;
+    bottom: 0.1vh;
+    left: 4.88vw;
+    margin-right: 10px;
+}
+#cubesCollected{
+    position: absolute;
+    left: 0vw;
+    margin-right: 7vw;
+}
+#cubesRemaining{
+    position: absolute;
+    left: 14vw;
+    margin-right: 2.5vw;
+}
+#selectedBonus{
+    margin-right: 2.5vw;
+    position: absolute;
+    top: 0%;
+    right: 0.8%;
+}
+#laserBonus{
+    position: absolute;
+    left: 35.5vw;
+    bottom: 0.1vh;
+}
+#teleportationBonus{
+    position: absolute;
+    left: 40.5vw;
+    bottom: 0.1vh;
+}
+#explosionBonus{
+    position: absolute;
+    left: 45.5vw;
+    bottom: 0.1vh;
+}
+#wallBonus{
+    position: absolute;
+    left: 30.5vw;
+    bottom: 0.1vh;
+}
+#lvlCount{
+    position: absolute;
+    bottom: -95vh;
+    transform: translateX(-17%);
+}
+#bestPerf{
+    position: absolute;
+    left: 14vw;
+    bottom: 0.1vh;
+}
+
+.settingsButtons {
+    margin-right: 1vw;
+    font-family: font2;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px #000;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.selected {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.settingsLabels {
+    transition: all 0.3s ease;
+    -webkit-text-stroke: white 1px;
+    text-shadow: 0 0 5px white;
+    color: #000;
+    font-family: font3;
+    font-size: 50px;
+    margin-right: 1vw;
+}
+.settingsLabels:hover {
+    text-shadow: 0 0 10px white;
+    transform: translateY(-5px);
+}
+#Title01 {
+    line-height: auto;
+    z-index: 0;
+    top: 0vh;
+    height: auto;
+    width: auto;
+}
+#Title02 {
+    line-height: auto;
+    z-index: 0;
+    width: auto;
+    height: auto;
+    top: 40vh;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    transition: all 0.3s ease;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: white 2px solid;
+    background: #000000;
+    cursor: pointer;
+}
+.slider::-webkit-slider-thumb:hover {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px white;
+    border: white 2px solid;
+    background: #000000;
+    cursor: pointer;
+}
+
+#button-container01{
+    position: absolute;
+    top: 26.5vh;
+    left: 51vw;
+}
+#settingsLabels01{
+    position: absolute;
+    top: 26vh;
+    right: 50vw;
+}
+#button-container02{
+    position: absolute;
+    top: 66.5vh;
+    left: 51vw;
+}
+#settingsLabels02{
+    position: absolute;
+    top: 66vh;
+    right: 50vw;
+}
+#button-container03{
+    position: absolute;
+    top: 72vh;
+    left: 51vw;
+}
+#settingsLabels03{
+    position: absolute;
+    top: 71.5vh;
+    right: 50vw;
+}
+#button-container04{
+    position: absolute;
+    top: 32.8vh;
+    left: 51vw;
+}
+#settingsLabels04{
+    position: absolute;
+    top: 31.5vh;
+    right: 50vw;
+}
+#button-container05{
+    position: absolute;
+    top: 37.8vh;
+    left: 51vw;
+}
+#settingsLabels05{
+    position: absolute;
+    top: 36.6vh;
+    right: 50vw;
+}
+
+@font-face {
+    font-family: font1;
+    src: url("fonts/font1.ttf");
+}
+@font-face {
+    font-family: font2;
+    src: url("fonts/font2.ttf");
+}
+@font-face {
+    font-family: font3;
+    src: url("fonts/font3.ttf");
+}
+@font-face {
+    font-family: font4;
+    src: url("fonts/font4.ttf");
+}
+@font-face {
+    font-family: font5;
+    src: url("fonts/_1.ttf");
+}
+@font-face {
+    font-family: font6;
+    src: url("fonts/_2.ttf");
+}
+@font-face {
+    font-family: font7;
+    src: url("fonts/_3.ttf");
+}
