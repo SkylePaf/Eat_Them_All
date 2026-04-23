@@ -1,15 +1,16 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, screen } = require('electron')
 const path = require('path')
 
-// Fix GPU sur certains drivers Linux
 app.commandLine.appendSwitch('disable-gpu')
-app.commandLine.appendSwitch('disable-software-rasterizer')
+app.commandLine.appendSwitch('disable-software-rasterizer')           // ← nécessaire sur Arch
 
 function createWindow() {
+  const { width, height } = screen.getPrimaryDisplay().workAreaSize;
   const win = new BrowserWindow({
-    width: 1280,
-    height: 800,
-    fullscreen: true,
+    width: width,
+    height: height,
+    kiosk: true,
+    fullscreen: false,
     icon: path.join(__dirname, 'src', 'assets', 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: {
@@ -18,28 +19,26 @@ function createWindow() {
     }
   })
 
-  win.setMenu(null)                          // Supprime la barre de menu
+  win.setMenu(null)
   win.loadFile(path.join(__dirname, 'src', 'index.html'))
 
   win.webContents.on('did-finish-load', () => {
-        const targetResolution = { width: 1920, height: 1080 };
-        const screenSize = win.getBounds();
-        const zoomFactor = Math.min(
-            screenSize.width / targetResolution.width,
-            screenSize.height / targetResolution.height
-        );
-        win.webContents.setZoomFactor(zoomFactor);
-        win.webContents.setVisualZoomLevelLimits(1, 1);
-  });
+    const targetResolution = { width: 1920, height: 1080 }
+    const screenSize = win.getBounds()
+    const zoomFactor = Math.min(
+      screenSize.width / targetResolution.width,
+      screenSize.height / targetResolution.height
+    )
+    win.webContents.setZoomFactor(zoomFactor)
+    win.webContents.setVisualZoomLevelLimits(1, 1)
+  })
 
-  win.setResizable(false);
+  win.setResizable(false)
 
-  // Désactive F12 / Inspecter
   win.webContents.on('devtools-opened', () => {
     win.webContents.closeDevTools()
   })
 
-  // Désactive le clic droit
   win.webContents.on('context-menu', (e) => {
     e.preventDefault()
   })
