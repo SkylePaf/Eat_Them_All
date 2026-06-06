@@ -1,11 +1,11 @@
 # Eat Them All
 
-> Eat every cube on the map — without getting caught.
+> Eat every cube on the map without getting caught.
 
 **8 worlds · 40 levels · 8 enemy types · 4 powerups**  
 Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
 
-[▶ Play Online](https://skylepaf.github.io/Eat_Them_All)
+[▶ Play Online](https://skylepaf.github.io/Eat_Them_All/web_browser/index.html)
 
 ---
 
