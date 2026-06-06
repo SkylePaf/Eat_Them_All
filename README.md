@@ -18,7 +18,7 @@ Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 |---|---|
 | ![menu](screenshots/main_menu.png) | ![world2](screenshots/lvlshowcase1.png) |
 
-| Gameplay - World 7 | Gameplay - World 7 |
+| Gameplay - World 7 | Gameplay - World 6 |
 |---|---|
 | ![world5](screenshots/lvlshowcase3.png) | ![world8](screenshots/lvlshowcase2.png) |
 
