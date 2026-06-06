@@ -3,9 +3,12 @@
 > Eat every cube on the map without getting caught.
 
 **8 worlds · 40 levels · 8 enemy types · 4 powerups**  
-Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
+Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 
 [▶ Play Online](https://skylepaf.github.io/Eat_Them_All/web_browser/index.html)
+
+**Not recommended.**  
+*Controls can be weird/unplayable depending on browser shortcuts.*
 
 ---
 
@@ -13,22 +16,22 @@ Built entirely in vanilla HTML/CSS/JS — no framework, no game engine.
 
 | Main Menu | Gameplay — World 2 |
 |---|---|
-| ![menu](screenshots/menu.png) | ![world2](screenshots/world2.png) |
+| ![menu](screenshots/main_menu.png) | ![world2](screenshots/lvlshowcase1.png) |
 
-| World 5 — Explosion bonus | World 8 — Wall bonus |
+| Gameplay - World 7 | Gameplay - World 7 |
 |---|---|
-| ![world5](screenshots/world5.png) | ![world8](screenshots/world8.png) |
+| ![world5](screenshots/lvlshowcase3.png) | ![world8](screenshots/lvlshowcase2.png) |
 
 ---
 
 ## Gameplay
 
-You control a cursor on a grid. Goal: eat every cube before the enemies catch you.
+You control a circle on a grid full of squares. Goal: eat every harmless squares without dying to the slightly more harmfull ones.
 
-- Move your character with the mouse
+- Move your character with the keyboard
 - Sprint to outrun enemies
 - Collect **powerups** to survive the chaos of later worlds
-- Each world introduces new enemy behaviors and a larger, denser grid
+- Each world introduces new enemy behaviors and a different grids each different than another
 
 ---
 
@@ -36,10 +39,10 @@ You control a cursor on a grid. Goal: eat every cube before the enemies catch yo
 
 - **8 worlds × 5 levels** — 40 hand-crafted levels
 - **8 distinct enemy types** — each world brings a new AI behavior
-- **7 powerups** — Laser, Explosion, Teleportation, Wall...
-- **Dynamic grid scaling** — grid size grows progressively across worlds and levels
-- **Performance tracking** — personal best recorded per level
-- **Accessibility settings** — Light Mode, independent Music/SFX volume sliders
+- **4 powerups** — Laser, Explosion, Teleportation, Wall Protection
+- **Dynamic grid scaling** — grid size grows, shrinks to give a new experience each lvls
+- **Performance tracking** — personal best recorded per level and more
+- **Accessibility settings** — Light Mode, independent Music/SFX volume sliders and controls
 - **Adaptive resolution** — zoom factor auto-calculated to fit any screen
 
 ---
@@ -52,11 +55,11 @@ No game engine. No framework. Everything built from scratch:
 ├── index.html          # game shell — one HTML table = the entire grid
 ├── main.js             # game loop, grid generation, input, scoring
 ├── enemiesScript.js    # 8 enemy AIs, movement patterns, collision
-├── bonusScript.js      # 7 powerup systems (laser, teleport, explosion, wall...)
+├── bonusScript.js      # 4 powerup systems (laser, teleport, explosion...)
 └── levelsData.json     # all 40 levels defined as pure data
 ```
 
-The grid is an HTML `<table>`. Every cell = one cube. Movement, collision and rendering are handled entirely in vanilla JS.
+The grid is an HTML `<table>`. Every cell = one square. Movement, collision and rendering are handled entirely in vanilla JS.
 
 Levels are **fully data-driven** — a new level is just a JSON entry:
 
@@ -83,17 +86,18 @@ Adding a world = adding a dictionary in the JSON. The engine does the rest.
 
 | Action | Keys |
 |--------|------|
-| Move | <!-- TODO --> |
+| Move | Z-Q-S-D |
 | Sprint | SHIFT or Right Click |
 | Laser bonus | SHIFT + CTRL |
-| <!-- TODO --> | <!-- TODO --> |
+| Other bonuses | Left Click |
+| Pause menu | ESCAPE |
 
 ---
 
 ## Stack
 
 `HTML` `CSS` `JavaScript` — zero dependencies, runs in any browser.  
-Packaged as a desktop app with [Electron](https://www.electronjs.org/).
+Packaged as a desktop app with [Electron](https://www.electronjs.org/). Just go in /web_app(Electron) and
 
 ---
 
