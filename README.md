@@ -26,7 +26,7 @@ Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 
 ## Gameplay
 
-You control a circle on a grid full of squares. Goal: eat every harmless squares without dying to the slightly more harmfull ones.
+You control circles on a grid full of squares. Goal: eat every harmless squares without dying to the slightly more harmfull ones.
 
 - Move your character with the keyboard
 - Sprint to outrun enemies
