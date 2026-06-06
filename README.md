@@ -104,7 +104,7 @@ To package, go in `/web_app(Electron)` then :
 npm install
 npm run build
 ```
-__The exe file should be in /web_app(Electron)/dist/ .__
+**The exe file should be in /web_app(Electron)/dist/ .**
 ---
 
 ## Credits
