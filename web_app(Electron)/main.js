@@ -2,7 +2,7 @@ const { app, BrowserWindow, screen } = require('electron')
 const path = require('path')
 
 app.commandLine.appendSwitch('disable-gpu')
-app.commandLine.appendSwitch('disable-software-rasterizer')           // ← nécessaire sur Arch
+app.commandLine.appendSwitch('disable-software-rasterizer')
 
 function createWindow() {
   const { width, height } = screen.getPrimaryDisplay().workAreaSize;
