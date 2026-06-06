@@ -6,6 +6,7 @@
     "email": "skylepaf@gmail.com"
   },
   "description": "EatThemAll - Stupid game where you eat cubes",
+  "homepage": "https://github.com/Skylepaf/Eat_Them_All",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
