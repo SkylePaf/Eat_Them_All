@@ -1,0 +1,2196 @@
+{
+    "lvl1": {
+        "gameMap": {
+                    "size": 9,
+                    "gameScale": [1, 16]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 0
+                },
+        "gameMapHazards": {
+                        }
+            },
+    "lvl2": {
+        "gameMap": {
+                    "size": 12,
+                    "gameScale": [1, 13]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 0
+                },
+        "gameMapHazards": {
+                }
+            },
+    "lvl3": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 11]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 0
+                },
+        "gameMapHazards": {
+                }
+            },
+    "lvl4": {
+        "gameMap": {
+                    "size": 27,
+                    "gameScale": [2, 7]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 3,
+                    "color": 0
+                },
+        "gameMapHazards": {
+                }
+            },
+    "lvl5": {
+        "gameMap": {
+                    "size": 42,
+                    "gameScale": [4, 5]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 6,
+                    "color": 0
+                },
+        "gameMapHazards": {
+                }
+            },
+    "lvl6": {
+        "gameMap": {
+                    "size": 15,
+                    "gameScale": [1, 13]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 1
+                },
+        "gameMapHazards": {
+                            "crosses": {
+                                        "size": 1,
+                                        "count": 1,
+                                        "color": 1
+                            }
+                }
+            },
+    "lvl7": {
+        "gameMap": {
+                    "size": 15,
+                    "gameScale": [1, 13]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 1
+                },
+        "gameMapHazards": {
+                            "crosses": {
+                                        "size": 1,
+                                        "count": 5,
+                                        "color": 1
+                            }
+                }
+            },
+    "lvl8": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 13]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 1
+                },
+        "gameMapHazards": {
+                            "crosses": {
+                                        "size": 3,
+                                        "count": 2,
+                                        "color": 1
+                            }
+                }
+            },
+    "lvl9": {
+        "gameMap": {
+                    "size": 22,
+                    "gameScale": [2, 11]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 1
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 4,
+                                        "color": 1
+                            }
+                }
+            },
+    "lvl10": {
+        "gameMap": {
+                    "size": 22,
+                    "gameScale": [2, 11]
+            },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 1
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                            },
+                            "crosses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                            }
+                },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 2,
+                                        "color": 0
+                                }
+                }
+            },
+    "lvl11": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 2
+                },
+        "gameMapHazards": {
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 2000,
+                                                    "max": 5000
+                                                },
+                                        "direction": "right",
+                                        "color": 0
+                                    }
+                        }
+            },
+    "lvl12": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 2
+                },
+        "gameMapHazards": {
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 1000,
+                                                    "max": 2500
+                                                },
+                                        "direction": "right",
+                                        "color": 0
+                                    }
+                        }
+            },
+    "lvl13": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 2
+                },
+        "gameMapHazards": {
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 700,
+                                                    "max": 1700
+                                                },
+                                        "direction": ["right", "left"],
+                                        "color": 0
+                                    }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 1,
+                                        "color": 0
+                                }
+                }
+            },
+    "lvl14": {
+        "gameMap": {
+                    "size": 27,
+                    "gameScale": [2, 8]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 2
+                },
+        "gameMapHazards": {
+                            "snakes": {
+                                        "length": {
+                                                    "min": 6,
+                                                    "max": 10
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 2
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 700,
+                                                    "max": 1700
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 0
+                                    }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 1,
+                                        "color": 0
+                                }
+                }
+            },
+    "lvl15": {
+        "gameMap": {
+                    "size": 27,
+                    "gameScale": [2, 8]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 2
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                                    },
+                            "snakes": {
+                                        "length": {
+                                                    "min": 6,
+                                                    "max": 10
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 2
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 700,
+                                                    "max": 1700
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 0
+                                    }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 2,
+                                        "color": 0
+                                }
+                }
+                        
+            },
+    "lvl16": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 3
+                },
+        "gameMapHazards": {
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                                    "min": 6,
+                                                    "max": 6
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 2000,
+                                                    "max": 5000
+                                                },
+                                        "direction": "right",
+                                        "color": 2
+                                    }
+                        },
+        "bonus": {
+                    "clickExplosion": {
+                                        "count": 1,
+                                        "radius": 3,
+                                        "color": 1
+                            }
+                }
+            },
+    "lvl17": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 3
+                },
+        "gameMapHazards": {
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                                    "min": 10,
+                                                    "max": 10
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 2000,
+                                                    "max": 2000
+                                                },
+                                        "direction": "right",
+                                        "color": 2
+                                    }
+                        },
+            "bonus": {
+                        "clickExplosion": {
+                                            "count": 1,
+                                            "radius": 3,
+                                            "color": 1
+                                        }
+                    }   
+            },
+    "lvl18": {
+        "gameMap": {
+                    "size": 17,
+                    "gameScale": [1, 12]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 1,
+                    "color": 3
+                },
+        "gameMapHazards": {
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                                    "min": 6,
+                                                    "max": 6
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 1300,
+                                                    "max": 2700
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 2
+                                    }
+                        },
+            "bonus": {
+                        "clickExplosion": {
+                                            "count": 2,
+                                            "radius": 3,
+                                            "color": 1
+                                        }
+                    }   
+            },
+    "lvl19": {
+        "gameMap": {
+                    "size": 27,
+                    "gameScale": [2, 6]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 3
+                },
+        "gameMapHazards": {
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                                    "min": 15,
+                                                    "max": 15
+                                                },
+                                        "speed": {
+                                                    "min": 1.2,
+                                                    "max": 1.4
+                                                },
+                                        "delay": {
+                                                    "min": 5000,
+                                                    "max": 8000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 2
+                                    },
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 1000,
+                                                    "max": 3000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 0
+                            }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 3,
+                                        "color": 0
+                                }
+                }       
+            },
+    "lvl20": {
+        "gameMap": {
+                    "size": 27,
+                    "gameScale": [2, 6]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 3
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                                    },
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                            "min": 15,
+                                            "max": 15
+                                                },
+                                        "speed": {
+                                                    "min": 1.2,
+                                                    "max": 1.4
+                                                },
+                                        "delay": {
+                                                    "min": 5000,
+                                                    "max": 8000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 2
+                                    },
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 1000,
+                                                    "max": 3000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 0
+                            }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 2,
+                                        "color": 0
+                                },
+                    "clickExplosion": {
+                                        "count": 2,
+                                        "radius": 5,
+                                        "color": 1
+                                    }
+                }
+            },
+    "lvl21": {
+        "gameMap": {
+                    "size": 20,
+                    "gameScale": [2, 8]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 4
+                },
+        "gameMapHazards": {
+                            "squares": {
+                                        "length": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 1,
+                                                    "max": 1.2
+                                                },
+                                        "delay": {
+                                                    "min": 500,
+                                                    "max": 100
+                                                },
+                                        "direction": ["right", "left"],
+                                        "color": 3
+                            }
+                        }
+            },
+    "lvl22": {
+        "gameMap": {
+                    "size": 30,
+                    "gameScale": [3, 6]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 2,
+                    "color": 4
+                },
+        "gameMapHazards": {
+                            "squares": {
+                                        "length": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 1,
+                                                    "max": 1.2
+                                                },
+                                        "delay": {
+                                                    "min": 200,
+                                                    "max": 800
+                                                },
+                                        "direction": ["right", "left", "down", "up"],
+                                        "color": 3
+                            }
+                        }
+            },
+    "lvl23": {
+        "gameMap": {
+                    "size": 50,
+                    "gameScale": [4, 4]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 4,
+                    "color": 4
+                },
+        "gameMapHazards": {
+                            "squares": {
+                                        "length": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 1,
+                                                    "max": 1.2
+                                                },
+                                        "delay": {
+                                                    "min": 200,
+                                                    "max": 800
+                                                },
+                                        "direction": ["right", "left", "down", "up"],
+                                        "color": 3
+                                    }
+                        },
+        "bonus": {
+                    "clickExplosion": {
+                                        "count": 2,
+                                        "radius": 8,
+                                        "color": 1
+                                    }
+                }
+            },
+    "lvl24": {
+        "gameMap": {
+                    "size": 50,
+                    "gameScale": [4, 4]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 4,
+                    "color": 4
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                                    },
+                            "squares": {
+                                        "length": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 1,
+                                                    "max": 1.2
+                                                },
+                                        "delay": {
+                                                    "min": 200,
+                                                    "max": 800
+                                                },
+                                        "direction": ["right", "left", "down", "up"],
+                                        "color": 3
+                            }
+                        },
+        "bonus": {
+                    "clickExplosion": {
+                                        "count": 5,
+                                        "radius": 8,
+                                        "color": 1
+                                    }
+                }
+            },
+    "lvl25": {
+        "gameMap": {
+                    "size": 50,
+                    "gameScale": [4, 4]
+                    },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 4,
+                    "color": 4
+                },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                                    },
+                            "squares": {
+                                        "length": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 1,
+                                                    "max": 1.2
+                                                },
+                                        "delay": {
+                                                    "min": 1000,
+                                                    "max": 2000
+                                                },
+                                        "direction": ["right", "left", "down", "up"],
+                                        "color": 3
+                                    },
+                            "walls": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 2
+                                                },
+                                        "width": {
+                                                    "min": 18,
+                                                    "max": 18
+                                                },
+                                        "speed": {
+                                                    "min": 1.2,
+                                                    "max": 1.4
+                                                },
+                                        "delay": {
+                                                    "min": 5000,
+                                                    "max": 8000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 2
+                                    },
+                            "snakes": {
+                                        "length": {
+                                                    "min": 2,
+                                                    "max": 6
+                                                },
+                                        "width": {
+                                                    "min": 1,
+                                                    "max": 1
+                                                },
+                                        "speed": {
+                                                    "min": 0.8,
+                                                    "max": 1
+                                                },
+                                        "delay": {
+                                                    "min": 1000,
+                                                    "max": 3000
+                                                },
+                                        "direction": ["right", "left", "up", "down"],
+                                        "color": 0
+                            }
+                        },
+        "bonus": {
+                    "shootASnake": {
+                                        "count": 3,
+                                        "color": 0
+                                },
+                    "clickExplosion": {
+                                        "count": 5,
+                                        "radius": 8,
+                                        "color": 1
+                                    }
+                }
+            },
+    "lvl26": {
+        "gameMap": {
+                    "size": 40,
+                    "gameScale": [4, 4]
+                    },
+        "gameMapHazards": {
+                            "circles": {
+                                        "speed": {
+                                                    "min": 1.6,
+                                                    "max": 1.8
+                                        },
+                                        "delay": {
+                                                    "min": 7000,
+                                                    "max": 7000
+                                        },
+                                        "color": 4
+                                }
+                        },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 3,
+                    "color": 5
+                }
+            },
+    "lvl27": {
+        "gameMap": {
+                    "size": 40,
+                    "gameScale": [4, 4]
+                    },
+        "gameMapHazards": {
+                            "circles": {
+                                        "speed": {
+                                                    "min": 1.5,
+                                                    "max": 2
+                                        },
+                                        "delay": {
+                                                    "min": 3500,
+                                                    "max": 3500
+                                        },
+                                        "color": 4
+                                }
+                        },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 3,
+                    "color": 5
+                }
+            },
+    "lvl28": {
+        "gameMap": {
+                    "size": 30,
+                    "gameScale": [3, 4]
+                    },
+        "gameMapHazards": {
+                            "pluses": {
+                                        "size": 3,
+                                        "count": 5,
+                                        "color": 1
+                                    },
+                            "circles": {
+                                        "speed": {
+                                                    "min": 1.6,
+                                                    "max": 1.8
+                                        },
+                                        "delay": {
+                                                    "min": 3500,
+                                                    "max": 3500
+                                        },
+                                        "color": 4
+                                }
+                        },
+        "player": {
+                    "pos": {
+                            "x": 3,
+                            "y": 3
+                        },
+                    "size": 3,
+                    "color": 5
+                },
+        "bonus": {
+                    "clickTeleportation": {
+                                        "count": 1,
+                                        "color": 2
+                                }
+                }
+            },
+        "lvl29": {
+            "gameMap": {
+                        "size": 30,
+                        "gameScale": [3, 4]
+                        },
+            "gameMapHazards": {
+                                "pluses": {
+                                            "size": 3,
+                                            "count": 5,
+                                            "color": 1
+                                        },
+                                "walls": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "width": {
+                                                        "min": 15,
+                                                        "max": 15
+                                                    },
+                                            "speed": {
+                                                        "min": 1.2,
+                                                        "max": 1.4
+                                                    },
+                                            "delay": {
+                                                        "min": 7000,
+                                                        "max": 11000
+                                                    },
+                                            "direction": ["right", "left", "up", "down"],
+                                            "color": 2
+                                        },
+                                "circles": {
+                                            "speed": {
+                                                        "min": 1.6,
+                                                        "max": 1.8
+                                            },
+                                            "delay": {
+                                                        "min": 5500,
+                                                        "max": 5500
+                                            },
+                                            "color": 4
+                                    }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 3,
+                        "color": 5
+                    },
+            "bonus": {
+                        "shootASnake": {
+                                            "count": 2,
+                                            "color": 0
+                                    },
+                        "clickTeleportation": {
+                                            "count": 3,
+                                            "color": 2
+                                    }
+                    }
+                },
+        "lvl30": {
+            "gameMap": {
+                        "size": 30,
+                        "gameScale": [3, 4]
+                        },
+            "gameMapHazards": {
+                                "pluses": {
+                                            "size": 3,
+                                            "count": 5,
+                                            "color": 1
+                                        },
+                                "squares": {
+                                            "length": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "width": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 2000,
+                                                        "max": 3000
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 3
+                                        },
+                                "walls": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "width": {
+                                                        "min": 15,
+                                                        "max": 15
+                                                    },
+                                            "speed": {
+                                                        "min": 1.2,
+                                                        "max": 1.4
+                                                    },
+                                            "delay": {
+                                                        "min": 7000,
+                                                        "max": 11000
+                                                    },
+                                            "direction": ["right", "left", "up", "down"],
+                                            "color": 2
+                                        },
+                                "circles": {
+                                            "speed": {
+                                                        "min": 1.6,
+                                                        "max": 1.8
+                                            },
+                                            "delay": {
+                                                        "min": 5500,
+                                                        "max": 5500
+                                            },
+                                            "color": 4
+                                    },
+                                "snakes": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 6
+                                                    },
+                                            "width": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "speed": {
+                                                        "min": 0.8,
+                                                        "max": 1
+                                                    },
+                                            "delay": {
+                                                        "min": 2000,
+                                                        "max": 5000
+                                                    },
+                                            "direction": ["right", "left", "up", "down"],
+                                            "color": 0
+                                            }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 2,
+                        "color": 5
+                    },
+            "bonus": {
+                        "shootASnake": {
+                                            "count": 2,
+                                            "color": 0
+                                    },
+                        "clickTeleportation": {
+                                            "count": 3,
+                                            "color": 2
+                                    },
+                        "clickExplosion": {
+                                            "count": 3,
+                                            "radius": 4,
+                                            "color": 1
+                                        }
+                    }
+                },
+        "lvl31": {
+            "gameMap": {
+                        "size": 30,
+                        "gameScale": [3, 8]
+                        },
+            "gameMapHazards": {
+                "diagonalSnakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 1,
+                        "max": 1.2
+                    },
+                    "delay": {
+                        "min": 600,
+                        "max": 1000
+                    },
+                    "direction": ["downright"],
+                    "color": 7
+                }
+            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 2,
+                        "color": 6
+                    }
+            },
+        "lvl32": {
+            "gameMap": {
+                        "size": 20,
+                        "gameScale": [2, 8]
+                        },
+            "gameMapHazards": {
+                "diagonalSnakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 2
+                    },
+                    "delay": {
+                        "min": 600,
+                        "max": 1000
+                    },
+                    "direction": ["downright", "downleft"],
+                    "color": 7
+                }
+            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 1,
+                        "color": 6
+                    },
+            "bonus": {
+                    "shootASnake": {
+                        "count": 4,
+                        "color": 0
+                    }
+                    }
+                },
+        "lvl33": {
+            "gameMap": {
+                        "size": 30,
+                        "gameScale": [3, 8]
+                        },
+            "gameMapHazards": {
+                "diagonalSnakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 2
+                    },
+                    "delay": {
+                        "min": 600,
+                        "max": 1000
+                    },
+                    "direction": ["downright", "downleft", "upright", "upleft"],
+                    "color": 7
+                },
+                "pluses": {
+                    "size": 10,
+                    "count": 1,
+                    "color": 1
+                }   
+            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 2,
+                        "color": 6
+                    },
+            "bonus": {
+                "clickExplosion": {
+                    "count": 1,
+                    "radius": 5,
+                    "color": 1
+                }
+            }
+        },
+        "lvl34": {
+            "gameMap": {
+                        "size": 35,
+                        "gameScale": [3, 5]
+                        },
+            "gameMapHazards": {
+                "diagonalSnakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 2
+                    },
+                    "delay": {
+                        "min": 800,
+                        "max": 1200
+                    },
+                    "direction": ["downright", "downleft", "upright", "upleft"],
+                    "color": 7
+                },
+                "snakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 2
+                    },
+                    "delay": {
+                        "min": 800,
+                        "max": 1000
+                    },
+                    "direction": ["right", "left"],
+                    "color": 0
+                },      
+                "pluses": {
+                    "size": 3,
+                    "count": 8,
+                    "color": 1
+                }   
+            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 2,
+                        "color": 6
+                    },
+            "bonus": {
+                "clickExplosion": {
+                    "count": 2,
+                    "radius": 4,
+                    "color": 1
+                },
+                "shootASnake": {
+                    "count": 2,
+                    "color": 0
+                }
+            }
+        },
+        "lvl35": {
+            "gameMap": {
+                        "size": 40,
+                        "gameScale": [4, 5]
+                        },
+            "gameMapHazards": {
+                "diagonalSnakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 6
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 1.4
+                    },
+                    "delay": {
+                        "min": 800,
+                        "max": 1200
+                    },
+                    "direction": ["downright", "downleft", "upright", "upleft"],
+                    "color": 7
+                },
+                "snakes": {
+                    "length": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "width": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "speed": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "delay": {
+                        "min": 800,
+                        "max": 1200
+                    },
+                    "direction": ["right", "left"],
+                    "color": 0
+                },
+                "walls": {
+                    "length": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "width": {
+                        "min": 26,
+                        "max": 26
+                    },
+                    "speed": {
+                        "min": 1,
+                        "max": 1.2
+                    },
+                    "delay": {
+                        "min": 10000,
+                        "max": 12000
+                    },  
+                    "direction": ["up"],
+                    "color": 2
+                },  
+                "pluses": {
+                    "size": 3,
+                    "count": 8,
+                    "color": 1
+                }
+            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 3,
+                        "color": 6
+                    },
+            "bonus": {
+                "clickExplosion": {
+                    "count": 2,
+                    "radius": 4,
+                    "color": 1
+                },
+                "shootASnake": {
+                    "count": 5,
+                    "color": 0
+                },
+                "clickTeleportation": {
+                    "count": 2,
+                    "color": 2
+                }
+            }
+        },
+        "lvl36": {
+            "gameMap": {
+                        "size": 20,
+                        "gameScale": [2, 10]
+                        },
+            "gameMapHazards": {
+                                "antiPlayer": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "width": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 2000,
+                                                        "max": 3000
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 5
+                                        }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 2,
+                        "color": 7
+                    }
+                },
+        "lvl37": {
+            "gameMap": {
+                        "size": 50,
+                        "gameScale": [4, 5]
+                        },
+            "gameMapHazards": {
+                                "antiPlayer": {
+                                            "length": {
+                                                        "min": 5,
+                                                        "max": 5
+                                                    },
+                                            "width": {
+                                                        "min": 5,
+                                                        "max": 5
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 1000,
+                                                        "max": 2000
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 5
+                                        },
+                                "diagonalSnakes": {
+                                            "length": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "width": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 800,
+                                                        "max": 1200
+                                                    },
+                                            "direction": ["upright", "upleft", "downright", "downleft"],
+                                    "color": 7
+                                }
+                            },
+            "bonus": {
+                        "clickWall": {
+                                            "count": 1,
+                                            "color": 3,
+                                            "size": 25
+                                        },
+                        "shootASnake": {
+                                            "count": 1,
+                                            "color": 0
+                                        }   
+                    },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 5,
+                        "color": 7
+                    }
+                },
+            "lvl38": {
+            "gameMap": {
+                        "size": 35,
+                        "gameScale": [3, 5]
+                        },
+            "gameMapHazards": {
+                                "antiPlayer": {
+                                            "length": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "width": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "speed": {
+                                                        "min": 2,
+                                                        "max": 3
+                                                    },
+                                            "delay": {
+                                                        "min": 1000,
+                                                        "max": 1200
+                                                    },
+                                            "direction": ["up", "down"],
+                                            "color": 5
+                                        },
+                                "pluses": {
+                                            "size": 5,
+                                            "count": 5,
+                                            "color": 1
+                                        }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 3,
+                        "color": 7
+                    },
+            "bonus": {
+                        "clickWall": {
+                                            "count": 2,
+                                            "color": 3,
+                                            "size": 10
+                                        },
+                        "shootASnake": {
+                                            "count": 2,
+                                            "color": 0
+                                        }
+                    }
+                },
+        "lvl39": {
+            "gameMap": {
+                        "size": 35,
+                        "gameScale": [3, 5]
+                        },
+            "gameMapHazards": {
+                                "antiPlayer": {
+                                            "length": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "width": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "speed": {
+                                                        "min": 1.1,
+                                                        "max": 1.3
+                                                    },
+                                            "delay": {
+                                                        "min": 1000,
+                                                        "max": 2000
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 5
+                                        },
+                                "snakes": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "width": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 600,
+                                                        "max": 1000
+                                                    },
+                                            "direction": ["right"],
+                                            "color": 0
+                                        },
+                                "diagonalSnakes": {
+                                    "length": {
+                                                "min": 2,
+                                                "max": 2
+                                            },
+                                    "width": {
+                                                "min": 2,
+                                                "max": 2
+                                            },
+                                    "speed": {
+                                                "min": 1,
+                                                "max": 1.2
+                                            },
+                                    "delay": {
+                                                "min": 600,
+                                                "max": 1000
+                                            },
+                                    "direction": ["upleft"],
+                                    "color": 7
+                                },
+                                "pluses": {
+                                            "size": 6,
+                                            "count": 5,
+                                            "color": 1  
+                                        }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 3,
+                        "color": 7
+                    },
+            "bonus": {
+                        "clickExplosion": {
+                                            "count": 2,
+                                            "radius": 5,
+                                            "color": 1
+                                        },
+                        "shootASnake": {
+                                            "count": 2,
+                                            "color": 0
+                                        },
+                        "clickWall": {
+                                            "count": 1,
+                                            "color": 3,
+                                            "size": 15
+                                        }   
+                    }
+                },
+        "lvl40": {
+            "gameMap": {
+                        "size": 45,
+                        "gameScale": [4, 5]
+                        },
+            "gameMapHazards": {
+                                "antiPlayer": {
+                                            "length": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "width": {
+                                                        "min": 3,
+                                                        "max": 3
+                                                    },
+                                            "speed": {
+                                                        "min": 1.1,
+                                                        "max": 1.3
+                                                    },
+                                            "delay": {
+                                                        "min": 1500,
+                                                        "max": 3500
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 5
+                                        },
+                                "squares": {
+                                            "length": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "width": {
+                                                        "min": 1,
+                                                        "max": 1
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 2000,
+                                                        "max": 3000
+                                                    },
+                                            "direction": ["right", "left", "down", "up"],
+                                            "color": 3
+                                        },
+                                "diagonalSnakes": {
+                                            "length": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "width": {
+                                                        "min": 2,
+                                                        "max": 2
+                                                    },
+                                            "speed": {
+                                                        "min": 1,
+                                                        "max": 1.2
+                                                    },
+                                            "delay": {
+                                                        "min": 1000,
+                                                        "max": 2000
+                                                    },
+                                            "direction": ["upright", "upleft", "downright", "downleft"],
+                                            "color": 7  
+                                },  
+                                "circles": {
+                                            "speed": {
+                                                        "min": 1.6,
+                                                        "max": 1.8
+                                            },
+                                            "delay": {
+                                                        "min": 4500,
+                                                        "max": 4500
+                                            },
+                                            "color": 4
+                                    },
+                                "pluses": {
+                                            "size": 5,
+                                            "count": 5,
+                                            "color": 1
+                                        }
+                            },
+            "player": {
+                        "pos": {
+                                "x": 3,
+                                "y": 3
+                            },
+                        "size": 3,
+                        "color": 7
+                    },
+            "bonus": {
+                                "clickExplosion": {
+                                                    "count": 2,
+                                                    "radius": 8,
+                                                    "color": 1
+                                                },
+                                "shootASnake": {
+                                                    "count": 2,
+                                                    "color": 0
+                                                },
+                                "clickWall": {
+                                                    "count": 2,
+                                                    "color": 3,
+                                                    "size": 20
+                                                },
+                                "clickTeleportation": {
+                                                    "count": 4,
+                                                    "color": 2
+                                                } 
+                            }
+                },
+        "SoundEffects": {
+                         "stepping": ["assets/audio/soundEffects/player/stepping01.mp3", "assets/audio/soundEffects/player/stepping02.mp3", "assets/audio/soundEffects/player/stepping03.mp3", "assets/audio/soundEffects/player/stepping04.mp3"],
+                         "bonusCollected": ["assets/audio/soundEffects/player/bonusCollected01.mp3", "assets/audio/soundEffects/player/bonusCollected02.mp3", "assets/audio/soundEffects/player/bonusCollected03.mp3"],
+                         "circleExplosion": ["assets/audio/soundEffects/enemy/circleExplosion01.mp3", "assets/audio/soundEffects/enemy/circleExplosion02.mp3", "assets/audio/soundEffects/enemy/circleExplosion03.mp3"],
+                         "clickExplosion": ["assets/audio/soundEffects/bonus/clickExplosion01.mp3"],
+                         "dying": ["assets/audio/soundEffects/player/dying01.mp3"],
+                         "eating": ["assets/audio/soundEffects/player/eating01.mp3", "assets/audio/soundEffects/player/eating02.mp3", "assets/audio/soundEffects/player/eating03.mp3"],
+                         "shootALaser": ["assets/audio/soundEffects/bonus/shootALaser01.mp3"],
+                         "teleportation": ["assets/audio/soundEffects/bonus/teleportation01.mp3"],
+                         "win": ["assets/audio/soundEffects/player/win01.mp3"],
+                         "shootASnakeAlert": ["assets/audio/soundEffects/bonus/wait01.mp3"],
+                         "wallFirstClick": ["assets/audio/soundEffects/bonus/firstClick01.mp3"],
+                         "wallSecondClick": ["assets/audio/soundEffects/bonus/secondClick01.mp3"],
+                         "creatingWall": ["assets/audio/soundEffects/bonus/wall01.mp3"],
+                         "eatingCube": ["assets/audio/soundEffects/enemy/eat01.mp3", "assets/audio/soundEffects/enemy/eat02.mp3", "assets/audio/soundEffects/enemy/eat03.mp3"],
+                         "alertExplosion": ["assets/audio/soundEffects/enemy/alertExplosion01.mp3"],
+                         "enemyDies": ["assets/audio/soundEffects/enemy/enemyDies01.mp3"]
+                    },
+        "textures_scale_1": {
+            "enemies": {
+                "staticEnemy": "assets/textures/scale_1/enemies/staticEnemy_01.png",
+                "snakes": {
+                    "up": "assets/textures/scale_1/enemies/snake_02.png",
+                    "down": "assets/textures/scale_1/enemies/snake_04.png",
+                    "left": "assets/textures/scale_1/enemies/snake_03.png",
+                    "right": "assets/textures/scale_1/enemies/snake_01.png"
+                },
+                "walls": {
+                    "up": "assets/textures/scale_1/enemies/wall_02.png",
+                    "down": "assets/textures/scale_1/enemies/wall_04.png",
+                    "left": "assets/textures/scale_1/enemies/wall_03.png",
+                    "right": "assets/textures/scale_1/enemies/wall_01.png"
+                },
+                "squares": "assets/textures/scale_1/enemies/square_01.png",
+                "circles": {
+                    "alert": ["assets/textures/scale_1/enemies/circleExplosionAlert_01.png", "assets/textures/scale_1/enemies/circleExplosionAlert_02.png"],
+                    "enemy": "assets/textures/scale_1/enemies/circleExplosionCircles_01.png"
+                },
+                "diagonalSnakes": {
+                    "upright": "assets/textures/scale_1/enemies/diaSnake_02.png",
+                    "upleft": "assets/textures/scale_1/enemies/diaSnake_03.png",
+                    "downright": "assets/textures/scale_1/enemies/diaSnake_01.png",
+                    "downleft": "assets/textures/scale_1/enemies/diaSnake_04.png"
+                },
+                "antiPlayer": {
+                    "world8": "assets/textures/scale_1/enemies/antiPlayer_08.png"
+                }
+            },
+            "player": {
+                "world1": "assets/textures/scale_1/player/player_01.png",
+                "world2": "assets/textures/scale_1/player/player_02.png",
+                "world3": "assets/textures/scale_1/player/player_03.png",
+                "world4": "assets/textures/scale_1/player/player_04.png",
+                "world5": "assets/textures/scale_1/player/player_05.png",
+                "world6": "assets/textures/scale_1/player/player_06.png",
+                "world7": "assets/textures/scale_1/player/player_07.png",
+                "world8": "assets/textures/scale_1/player/player_08.png"
+            },
+            "bonuses": {
+                "lootable": {
+                    "clickExplosionBonus": "assets/textures/scale_1/bonus/explosionBonus_01.png",
+                    "shootASnakeBonus": "assets/textures/scale_1/bonus/laserBonus_01.png",
+                    "clickTeleportation": "assets/textures/scale_1/bonus/teleportationBonus_01.png",
+                    "clickWall": "assets/textures/scale_1/bonus/wallBonus_01.png"
+                },
+                "uses": {
+                    "laserBonus": {
+                        "up_or_down": "assets/textures/scale_1/bonus/laser_01.png",
+                        "left_or_right": "assets/textures/scale_1/bonus/laser_02.png"
+                    },
+                    "wallBonus": {
+                        "wall": "assets/textures/scale_1/bonus/playerWall_01.png",
+                        "wallPreview": "assets/textures/scale_1/bonus/wallPreview_01.png"
+                    }
+                }
+            },
+            "decors": {
+                "border": "assets/textures/scale_1/decor/border_01.png",
+                "cubes": ["assets/textures/scale_1/decor/decor_01.png", "assets/textures/scale_1/decor/decor_02.png", "assets/textures/scale_1/decor/decor_03.png", "assets/textures/scale_1/decor/decor_04.png", "assets/textures/scale_1/decor/decor_05.png", "assets/textures/scale_1/decor/decor_06.png", "assets/textures/scale_1/decor/decor_07.png", "assets/textures/scale_1/decor/decor_08.png", "assets/textures/scale_1/decor/decor_09.png", "assets/textures/scale_1/decor/decor_10.png"],
+                "cubesCorrupted": ["assets/textures/scale_1/decor/decorCorrupt_01.png", "assets/textures/scale_1/decor/decorCorrupt_02.png", "assets/textures/scale_1/decor/decorCorrupt_03.png", "assets/textures/scale_1/decor/decorCorrupt_04.png", "assets/textures/scale_1/decor/decorCorrupt_05.png", "assets/textures/scale_1/decor/decorCorrupt_06.png", "assets/textures/scale_1/decor/decorCorrupt_07.png", "assets/textures/scale_1/decor/decorCorrupt_08.png", "assets/textures/scale_1/decor/decorCorrupt_09.png", "assets/textures/scale_1/decor/decorCorrupt_10.png"]
+            }
+        },
+        "textures_scale_2": {
+            "enemies": {
+                "staticEnemy": "assets/textures/scale_2/enemies/staticEnemy_01.png",
+                "snakes": {
+                    "up": "assets/textures/scale_2/enemies/snake_02.png",
+                    "down": "assets/textures/scale_2/enemies/snake_04.png",
+                    "left": "assets/textures/scale_2/enemies/snake_03.png",
+                    "right": "assets/textures/scale_2/enemies/snake_01.png"
+                },
+                "walls": {
+                    "up": "assets/textures/scale_2/enemies/wall_02.png",
+                    "down": "assets/textures/scale_2/enemies/wall_04.png",
+                    "left": "assets/textures/scale_2/enemies/wall_03.png",
+                    "right": "assets/textures/scale_2/enemies/wall_01.png"
+                },
+                "squares": "assets/textures/scale_2/enemies/square_01.png",
+                "circles": {
+                    "alert": ["assets/textures/scale_2/enemies/circleExplosionAlert_01.png", "assets/textures/scale_2/enemies/circleExplosionAlert_02.png"],
+                    "enemy": "assets/textures/scale_2/enemies/circleExplosionCircles_01.png"
+                },
+                "diagonalSnakes": {
+                    "upright": "assets/textures/scale_2/enemies/diaSnake_02.png",
+                    "upleft": "assets/textures/scale_2/enemies/diaSnake_03.png",
+                    "downright": "assets/textures/scale_2/enemies/diaSnake_01.png",
+                    "downleft": "assets/textures/scale_2/enemies/diaSnake_04.png"
+                },
+                "antiPlayer": {
+                    "world8": "assets/textures/scale_2/enemies/antiPlayer_08.png"
+                }
+            },
+            "player": {
+                "world1": "assets/textures/scale_2/player/player_01.png",
+                "world2": "assets/textures/scale_2/player/player_02.png",
+                "world3": "assets/textures/scale_2/player/player_03.png",
+                "world4": "assets/textures/scale_2/player/player_04.png",
+                "world5": "assets/textures/scale_2/player/player_05.png",
+                "world6": "assets/textures/scale_2/player/player_06.png",
+                "world7": "assets/textures/scale_2/player/player_07.png",
+                "world8": "assets/textures/scale_2/player/player_08.png"
+            },
+            "bonuses": {
+                "lootable": {
+                    "clickExplosionBonus": "assets/textures/scale_2/bonus/explosionBonus_01.png",
+                    "shootASnakeBonus": "assets/textures/scale_2/bonus/laserBonus_01.png",
+                    "clickTeleportation": "assets/textures/scale_2/bonus/teleportationBonus_01.png",
+                    "clickWall": "assets/textures/scale_2/bonus/wallBonus_01.png"
+                },
+                "uses": {
+                    "laserBonus": {
+                        "up_or_down": "assets/textures/scale_2/bonus/laser_01.png",
+                        "left_or_right": "assets/textures/scale_2/bonus/laser_02.png"
+                    },
+                    "wallBonus": {
+                        "wall": "assets/textures/scale_2/bonus/playerWall_01.png",
+                        "wallPreview": "assets/textures/scale_2/bonus/wallPreview_01.png"
+                    }
+                }
+            },
+            "decors": {
+                "border": "assets/textures/scale_2/decor/border_01.png",
+                "cubes": ["assets/textures/scale_2/decor/decor_01.png", "assets/textures/scale_2/decor/decor_02.png", "assets/textures/scale_2/decor/decor_03.png", "assets/textures/scale_2/decor/decor_04.png", "assets/textures/scale_2/decor/decor_05.png", "assets/textures/scale_2/decor/decor_06.png", "assets/textures/scale_2/decor/decor_07.png", "assets/textures/scale_2/decor/decor_08.png", "assets/textures/scale_2/decor/decor_09.png", "assets/textures/scale_2/decor/decor_10.png"],
+                "cubesCorrupted": ["assets/textures/scale_2/decor/decorCorrupt_01.png", "assets/textures/scale_2/decor/decorCorrupt_02.png", "assets/textures/scale_2/decor/decorCorrupt_03.png", "assets/textures/scale_2/decor/decorCorrupt_04.png", "assets/textures/scale_2/decor/decorCorrupt_05.png", "assets/textures/scale_2/decor/decorCorrupt_06.png", "assets/textures/scale_2/decor/decorCorrupt_07.png", "assets/textures/scale_2/decor/decorCorrupt_08.png", "assets/textures/scale_2/decor/decorCorrupt_09.png", "assets/textures/scale_2/decor/decorCorrupt_10.png"]
+            }
+        },
+        "textures_scale_3": {
+            "enemies": {
+                "staticEnemy": "assets/textures/scale_3/enemies/staticEnemy_01.png",
+                "snakes": {
+                    "up": "assets/textures/scale_3/enemies/snake_02.png",
+                    "down": "assets/textures/scale_3/enemies/snake_04.png",
+                    "left": "assets/textures/scale_3/enemies/snake_03.png",
+                    "right": "assets/textures/scale_3/enemies/snake_01.png"
+                },
+                "walls": {
+                    "up": "assets/textures/scale_3/enemies/wall_02.png",
+                    "down": "assets/textures/scale_3/enemies/wall_04.png",
+                    "left": "assets/textures/scale_3/enemies/wall_03.png",
+                    "right": "assets/textures/scale_3/enemies/wall_01.png"
+                },
+                "squares": "assets/textures/scale_3/enemies/square_01.png",
+                "circles": {
+                    "alert": ["assets/textures/scale_3/enemies/circleExplosionAlert_01.png", "assets/textures/scale_3/enemies/circleExplosionAlert_02.png"],
+                    "enemy": "assets/textures/scale_3/enemies/circleExplosionCircles_01.png"
+                },
+                "diagonalSnakes": {
+                    "upright": "assets/textures/scale_3/enemies/diaSnake_02.png",
+                    "upleft": "assets/textures/scale_3/enemies/diaSnake_03.png",
+                    "downright": "assets/textures/scale_3/enemies/diaSnake_01.png",
+                    "downleft": "assets/textures/scale_3/enemies/diaSnake_04.png"
+                },
+                "antiPlayer": {
+                    "world8": "assets/textures/scale_3/enemies/antiPlayer_08.png"
+                }
+            },
+            "player": {
+                "world1": "assets/textures/scale_3/player/player_01.png",
+                "world2": "assets/textures/scale_3/player/player_02.png",
+                "world3": "assets/textures/scale_3/player/player_03.png",
+                "world4": "assets/textures/scale_3/player/player_04.png",
+                "world5": "assets/textures/scale_3/player/player_05.png",
+                "world6": "assets/textures/scale_3/player/player_06.png",
+                "world7": "assets/textures/scale_3/player/player_07.png",
+                "world8": "assets/textures/scale_3/player/player_08.png"
+            },
+            "bonuses": {
+                "lootable": {
+                    "clickExplosionBonus": "assets/textures/scale_3/bonus/explosionBonus_01.png",
+                    "shootASnakeBonus": "assets/textures/scale_3/bonus/laserBonus_01.png",
+                    "clickTeleportation": "assets/textures/scale_3/bonus/teleportationBonus_01.png",
+                    "clickWall": "assets/textures/scale_3/bonus/wallBonus_01.png"
+                },
+                "uses": {
+                    "laserBonus": {
+                        "up_or_down": "assets/textures/scale_3/bonus/laser_01.png",
+                        "left_or_right": "assets/textures/scale_3/bonus/laser_02.png"
+                    },
+                    "wallBonus": {
+                        "wall": "assets/textures/scale_3/bonus/playerWall_01.png",
+                        "wallPreview": "assets/textures/scale_3/bonus/wallPreview_01.png"
+                    }
+                }
+            },
+            "decors": {
+                "border": "assets/textures/scale_3/decor/border_01.png",
+                "cubes": ["assets/textures/scale_3/decor/decor_01.png", "assets/textures/scale_3/decor/decor_02.png", "assets/textures/scale_3/decor/decor_03.png", "assets/textures/scale_3/decor/decor_04.png", "assets/textures/scale_3/decor/decor_05.png", "assets/textures/scale_3/decor/decor_06.png", "assets/textures/scale_3/decor/decor_07.png", "assets/textures/scale_3/decor/decor_08.png", "assets/textures/scale_3/decor/decor_09.png", "assets/textures/scale_3/decor/decor_10.png"],
+                "cubesCorrupted": ["assets/textures/scale_3/decor/decorCorrupt_01.png", "assets/textures/scale_3/decor/decorCorrupt_02.png", "assets/textures/scale_3/decor/decorCorrupt_03.png", "assets/textures/scale_3/decor/decorCorrupt_04.png", "assets/textures/scale_3/decor/decorCorrupt_05.png", "assets/textures/scale_3/decor/decorCorrupt_06.png", "assets/textures/scale_3/decor/decorCorrupt_07.png", "assets/textures/scale_3/decor/decorCorrupt_08.png", "assets/textures/scale_3/decor/decorCorrupt_09.png", "assets/textures/scale_3/decor/decorCorrupt_10.png"]
+            }
+        },
+        "textures_scale_4": {
+            "enemies": {
+                "staticEnemy": "assets/textures/scale_4/enemies/staticEnemy_01.png",
+                "snakes": {
+                    "up": "assets/textures/scale_4/enemies/snake_02.png",
+                    "down": "assets/textures/scale_4/enemies/snake_04.png",
+                    "left": "assets/textures/scale_4/enemies/snake_03.png",
+                    "right": "assets/textures/scale_4/enemies/snake_01.png"
+                },
+                "walls": {
+                    "up": "assets/textures/scale_4/enemies/wall_02.png",
+                    "down": "assets/textures/scale_4/enemies/wall_04.png",
+                    "left": "assets/textures/scale_4/enemies/wall_03.png",
+                    "right": "assets/textures/scale_4/enemies/wall_01.png"
+                },
+                "squares": "assets/textures/scale_4/enemies/square_01.png",
+                "circles": {
+                    "alert": ["assets/textures/scale_4/enemies/circleExplosionAlert_01.png", "assets/textures/scale_4/enemies/circleExplosionAlert_02.png"],
+                    "enemy": "assets/textures/scale_4/enemies/circleExplosionCircles_01.png"
+                },
+                "diagonalSnakes": {
+                    "upright": "assets/textures/scale_4/enemies/diaSnake_02.png",
+                    "upleft": "assets/textures/scale_4/enemies/diaSnake_03.png",
+                    "downright": "assets/textures/scale_4/enemies/diaSnake_01.png",
+                    "downleft": "assets/textures/scale_4/enemies/diaSnake_04.png"
+                },
+                "antiPlayer": {
+                    "world8": "assets/textures/scale_4/enemies/antiPlayer_08.png"
+                }
+            },
+            "player": {
+                "world1": "assets/textures/scale_4/player/player_01.png",
+                "world2": "assets/textures/scale_4/player/player_02.png",
+                "world3": "assets/textures/scale_4/player/player_03.png",
+                "world4": "assets/textures/scale_4/player/player_04.png",
+                "world5": "assets/textures/scale_4/player/player_05.png",
+                "world6": "assets/textures/scale_4/player/player_06.png",
+                "world7": "assets/textures/scale_4/player/player_07.png",
+                "world8": "assets/textures/scale_4/player/player_08.png"
+            },
+            "bonuses": {
+                "lootable": {
+                    "clickExplosionBonus": "assets/textures/scale_4/bonus/explosionBonus_01.png",
+                    "shootASnakeBonus": "assets/textures/scale_4/bonus/laserBonus_01.png",
+                    "clickTeleportation": "assets/textures/scale_4/bonus/teleportationBonus_01.png",
+                    "clickWall": "assets/textures/scale_4/bonus/wallBonus_01.png"
+                },
+                "uses": {
+                    "laserBonus": {
+                        "up_or_down": "assets/textures/scale_4/bonus/laser_01.png",
+                        "left_or_right": "assets/textures/scale_4/bonus/laser_02.png"
+                    },
+                    "wallBonus": {
+                        "wall": "assets/textures/scale_4/bonus/playerWall_01.png",
+                        "wallPreview": "assets/textures/scale_4/bonus/wallPreview_01.png"
+                    }
+                }
+            },
+            "decors": {
+                "border": "assets/textures/scale_4/decor/border_01.png",
+                "cubes": ["assets/textures/scale_4/decor/decor_01.png", "assets/textures/scale_4/decor/decor_02.png", "assets/textures/scale_4/decor/decor_03.png", "assets/textures/scale_4/decor/decor_04.png", "assets/textures/scale_4/decor/decor_05.png", "assets/textures/scale_4/decor/decor_06.png", "assets/textures/scale_4/decor/decor_07.png", "assets/textures/scale_4/decor/decor_08.png", "assets/textures/scale_4/decor/decor_09.png", "assets/textures/scale_4/decor/decor_10.png"],
+                "cubesCorrupted": ["assets/textures/scale_4/decor/decorCorrupt_01.png", "assets/textures/scale_4/decor/decorCorrupt_02.png", "assets/textures/scale_4/decor/decorCorrupt_03.png", "assets/textures/scale_4/decor/decorCorrupt_04.png", "assets/textures/scale_4/decor/decorCorrupt_05.png", "assets/textures/scale_4/decor/decorCorrupt_06.png", "assets/textures/scale_4/decor/decorCorrupt_07.png", "assets/textures/scale_4/decor/decorCorrupt_08.png", "assets/textures/scale_4/decor/decorCorrupt_09.png", "assets/textures/scale_4/decor/decorCorrupt_10.png"]
+            }
+        },
+            "worldsData": {
+                        "World 1": {
+                                    "color": 5,
+                                    "levels": [
+                                        { "id": 1, "name": "Level 1" },
+                                        { "id": 2, "name": "Level 2" },
+                                        { "id": 3, "name": "Level 3" },
+                                        { "id": 4, "name": "Level 4" },
+                                        { "id": 5, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 2": {
+                                    "color": 1,
+                                    "levels": [
+                                        { "id": 6, "name": "Level 1" },
+                                        { "id": 7, "name": "Level 2" },
+                                        { "id": 8, "name": "Level 3" },
+                                        { "id": 9, "name": "Level 4" },
+                                        { "id": 10, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 3": {
+                                    "color": 0,
+                                    "levels": [
+                                        { "id": 11, "name": "Level 1" },
+                                        { "id": 12, "name": "Level 2" },
+                                        { "id": 13, "name": "Level 3" },
+                                        { "id": 14, "name": "Level 4" },
+                                        { "id": 15, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 4": {
+                                    "color": 2,
+                                    "levels": [
+                                        { "id": 16, "name": "Level 1" },
+                                        { "id": 17, "name": "Level 2" },
+                                        { "id": 18, "name": "Level 3" },
+                                        { "id": 19, "name": "Level 4" },
+                                        { "id": 20, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 5": {
+                                    "color": 3,
+                                    "levels": [
+                                        { "id": 21, "name": "Level 1" },
+                                        { "id": 22, "name": "Level 2" },
+                                        { "id": 23, "name": "Level 3" },
+                                        { "id": 24, "name": "Level 4" },
+                                        { "id": 25, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 6": {
+                                    "color": 4,
+                                    "levels": [
+                                        { "id": 26, "name": "Level 1" },
+                                        { "id": 27, "name": "Level 2" },
+                                        { "id": 28, "name": "Level 3" },
+                                        { "id": 29, "name": "Level 4" },
+                                        { "id": 30, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 7": {
+                                    "color": 7,
+                                    "levels": [
+                                        { "id": 31, "name": "Level 1" },
+                                        { "id": 32, "name": "Level 2" },
+                                        { "id": 33, "name": "Level 3" },
+                                        { "id": 34, "name": "Level 4" },
+                                        { "id": 35, "name": "Level 5" }
+                                    ]
+                                },
+                        "World 8": {
+                                    "color": 8,
+                                    "levels": [
+                                        { "id": 36, "name": "Level 1" },
+                                        { "id": 37, "name": "Level 2" },
+                                        { "id": 38, "name": "Level 3" },
+                                        { "id": 39, "name": "Level 4" },
+                                        { "id": 40, "name": "Level 5" }
+                                    ]
+                                }
+                    }
+
+}
