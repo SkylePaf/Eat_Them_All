@@ -8,7 +8,8 @@ Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 [▶ Play Online](https://skylepaf.github.io/Eat_Them_All/web_browser/index.html)
 
 **Not recommended.**  
-*Controls can be weird/unplayable depending on browser shortcuts.*
+> Browser version: some keyboard shortcuts may conflict depending on your browser.
+> For the best experience, download the Electron version.
 
 ---
 
@@ -105,6 +106,7 @@ npm install
 npm run build
 ```
 *The exe file should be in /web_app(Electron)/dist/ .*
+
 ---
 
 ## Credits
