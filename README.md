@@ -97,8 +97,9 @@ Adding a world = adding a dictionary in the JSON. The engine does the rest.
 ## Stack
 
 `HTML` `CSS` `JavaScript` — zero dependencies, runs in any browser.  
+
 Packaged as a desktop app with [Electron](https://www.electronjs.org/).  
-Go in /web_app(Electron) then :  
+To package, go in `/web_app(Electron)` then :  
 ```bash
 npm install
 npm run build
