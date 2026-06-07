@@ -6,8 +6,7 @@
 Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 
 [▶ Play Online](https://skylepaf.github.io/Eat_Them_All/web_browser/index.html)
-
-**Not recommended.**  
+ 
 > Browser version: some keyboard shortcuts may conflict depending on your browser.
 > For the best experience, download the Electron version.
 
@@ -42,7 +41,7 @@ You control circles on a grid full of squares. Goal: eat every harmless squares 
 - **8 distinct enemy types** — each world brings a new AI behavior
 - **4 powerups** — Laser, Explosion, Teleportation, Wall Protection
 - **Dynamic grid scaling** — grid size grows, shrinks to give a new experience each lvls
-- **Performance tracking** — personal best recorded per level and more
+- **Performance tracking** — personal best recorded per level and tons of game-specific statistics
 - **Accessibility settings** — Light Mode, independent Music/SFX volume sliders and controls
 - **Adaptive resolution** — zoom factor auto-calculated to fit any screen
 
