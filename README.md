@@ -5,6 +5,8 @@
 **8 worlds · 40 levels · 8 enemy types · 4 powerups**  
 Built entirely in vanilla HTML/CSS/JS - no framework, no game engine.
 
+*Built in early 2025.*
+
 [▶ Play Online](https://skylepaf.github.io/Eat_Them_All/web_browser/index.html)
  
 > Browser version: some keyboard shortcuts may conflict depending on your browser.
