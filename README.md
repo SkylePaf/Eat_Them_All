@@ -112,3 +112,4 @@ npm run build
 
 Sound effects adapted from **Undertale** (Toby Fox) and **Driverhead**.  
 Code, level design and visuals by **SkylePaf**.
+*Built in early 2025.*
